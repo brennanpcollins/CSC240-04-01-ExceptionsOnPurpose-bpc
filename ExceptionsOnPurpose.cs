@@ -14,7 +14,7 @@ namespace CSC240_04_01_ExceptionsOnPurpose_bpc
         static void Main()
         {
             //STORAGE
-            int answer;
+            int answer = 0;
             int result;
             int zero = 0;
 
