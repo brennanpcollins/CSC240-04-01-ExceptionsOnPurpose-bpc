@@ -27,6 +27,10 @@ namespace CSC240_04_01_ExceptionsOnPurpose_bpc
                 //PROCESS
                 result = answer / zero;
             }
+            catch(Exception e)
+            {
+                WriteLine(e.Message);
+            }
 
             WriteLine("The answer is " + answer);
 
